@@ -31,7 +31,7 @@ export const flavors: Record<string, Flavor> = {
     name: "Grape Juice",
     desc: "Deep, juicy grapes in every puff.",
     color: "#8a77d3",
-    image: CDN + "6abc16a544eb530b06cd7a15_slide1.png",
+    image: CDN + "6abc16a544eb530b06cd7a15_slide1.webp",
     slideIndex: 0,
   },
   apple: {
@@ -39,7 +39,7 @@ export const flavors: Record<string, Flavor> = {
     name: "Apple Max",
     desc: "Crisp green apple with a bright, tart finish.",
     color: "#62c55d",
-    image: CDN + "6abc16a53e8d3567584fd565_slide2.png",
+    image: CDN + "6abc16a53e8d3567584fd565_slide2.webp",
     slideIndex: 1,
   },
   watermelon: {
@@ -47,7 +47,7 @@ export const flavors: Record<string, Flavor> = {
     name: "Watermelon",
     desc: "Light, juicy summer watermelon.",
     color: "#fa4d28",
-    image: CDN + "6abc16a5377811549f0d643f_slide3.png",
+    image: CDN + "6abc16a5377811549f0d643f_slide3.webp",
     slideIndex: 2,
   },
   mango: {
@@ -55,7 +55,7 @@ export const flavors: Record<string, Flavor> = {
     name: "Mango Me",
     desc: "A tropical escape of ripe, sweet mango.",
     color: "#fcb32d",
-    image: CDN + "6abc16a59b17ada27853d3e0_slide4.png",
+    image: CDN + "6abc16a59b17ada27853d3e0_slide4.webp",
     slideIndex: 3,
   },
   blueberry: {
@@ -63,7 +63,7 @@ export const flavors: Record<string, Flavor> = {
     name: "Ice Blueberry",
     desc: "Blueberries with an icy, cooling kick.",
     color: "#61b5e4",
-    image: CDN + "6abc16a55a913fda0854b8f0_slide5.png",
+    image: CDN + "6abc16a55a913fda0854b8f0_slide5.webp",
     slideIndex: 4,
   },
   strawberry: {
@@ -71,7 +71,7 @@ export const flavors: Record<string, Flavor> = {
     name: "Fresh Strawberry",
     desc: "Sweet strawberries with a fresh summer note.",
     color: "#f37f88",
-    image: CDN + "6abc16a5d0c8ff63179ae824_Group%203137.png",
+    image: CDN + "6abc16a5d0c8ff63179ae824_Group%203137.webp",
     slideIndex: 5,
   },
   lemonade: {
@@ -79,7 +79,7 @@ export const flavors: Record<string, Flavor> = {
     name: "Sweet Lemonade",
     desc: "Sweet and sour homemade lemonade.",
     color: "#68c991",
-    image: CDN + "6abc16a5e79bdbb5d530937c_slide7.png",
+    image: CDN + "6abc16a5e79bdbb5d530937c_slide7.webp",
     slideIndex: 6,
   },
   gum: {
@@ -87,7 +87,7 @@ export const flavors: Record<string, Flavor> = {
     name: "Double Gum",
     desc: "The nostalgic taste of classic bubble gum.",
     color: "#ed95bf",
-    image: CDN + "6abc16a586c267e438f53723_slide8.png",
+    image: CDN + "6abc16a586c267e438f53723_slide8.webp",
     slideIndex: 7,
   },
   banana: {
@@ -95,7 +95,7 @@ export const flavors: Record<string, Flavor> = {
     name: "Banana Mama",
     desc: "Creamy banana with a soft, sweet finish.",
     color: "#ffc700",
-    image: CDN + "6abc16a54f740b1e6e4f7ae1_slide9.png",
+    image: CDN + "6abc16a54f740b1e6e4f7ae1_slide9.webp",
     slideIndex: 8,
   },
   cherry: {
@@ -103,7 +103,7 @@ export const flavors: Record<string, Flavor> = {
     name: "Cherry Berry",
     desc: "Ripe cherries and wild berries in one puff.",
     color: "#f9465e",
-    image: CDN + "6abc16a5b81e806584c163d6_slide10.png",
+    image: CDN + "6abc16a5b81e806584c163d6_slide10.webp",
     slideIndex: 9,
   },
 };

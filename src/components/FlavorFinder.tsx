@@ -1,9 +1,10 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   profileQuestion,
   intensityQuestion,
   pickFlavor,
+  flavors,
   type Flavor,
   type ProfileId,
   type IntensityId,
@@ -94,6 +95,13 @@ export default function FlavorFinder() {
   const [intensity, setIntensity] = useState<IntensityId | null>(null);
   const [hovered, setHovered] = useState<string | null>(null);
   const [showcase, setShowcase] = useState(false);
+
+  useEffect(() => {
+    Object.values(flavors).forEach((f) => {
+      const img = new Image();
+      img.src = f.image;
+    });
+  }, []);
   const hasSlider =
     typeof document !== "undefined" &&
     !!document.querySelector(".flavor_slider");
