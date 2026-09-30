@@ -19,7 +19,7 @@ const css = `
   --flavor-finder-radius:32px; --flavor-finder-radius-inner:24px; --flavor-finder-radius-option:14px; --flavor-finder-radius-btn:999px;
   --flavor-finder-padding:48px; --flavor-finder-gap:40px; --flavor-finder-max-width:1160px;
   --flavor-finder-columns:minmax(0,1fr) minmax(0,1.1fr); --flavor-finder-preview-order:0; --flavor-finder-preview-max-width:none;
-  --flavor-finder-title-size:44px; --flavor-finder-result-size:64px; --flavor-finder-showcase-size:96px; --flavor-finder-text-size:16px;
+  --flavor-finder-title-size:44px; --flavor-finder-result-size:64px; --flavor-finder-showcase-size:66px; --flavor-finder-text-size:16px;
 }
 @media (max-width:767px){
   :where([data-flavor-finder]){
@@ -63,8 +63,8 @@ const css = `
 .flavor-finder__overlay{position:absolute;left:var(--flavor-finder-padding);bottom:var(--flavor-finder-padding);z-index:2;max-width:46%}
 .flavor-finder__overlay .flavor-finder__result-name{font-size:var(--flavor-finder-showcase-size)}
 @media (max-width:767px){.flavor-finder__body{min-height:0}
-  .flavor-finder.is-showcase .flavor-finder__preview{aspect-ratio:3/4;flex-direction:column;justify-content:flex-start}
-  .flavor-finder.is-showcase .flavor-finder__preview img{width:100%;height:60%;margin:0;object-position:center}
+  .flavor-finder.is-showcase .flavor-finder__preview{aspect-ratio:auto;flex-direction:column;justify-content:flex-start}
+  .flavor-finder.is-showcase .flavor-finder__preview img{width:100%;height:60%;margin:0;object-position:center; padding:20px 20px 0;}
   .flavor-finder__overlay{position:static;max-width:none;padding:0 20px 20px}}
 `;
 
