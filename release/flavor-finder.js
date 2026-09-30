@@ -35,11 +35,11 @@ Error generating stack: `+e.message+`
 .flavor-finder{position:relative;display:grid;grid-template-columns:var(--flavor-finder-columns);gap:var(--flavor-finder-gap);align-items:center;
   max-width:var(--flavor-finder-max-width);margin:0 auto;padding:var(--flavor-finder-padding);border-radius:var(--flavor-finder-radius);
   background:var(--flavor-finder-bg);color:var(--flavor-finder-text);font-family:var(--flavor-finder-font-body);overflow:hidden;box-sizing:border-box}
-.flavor-finder.is-showcase{grid-template-columns:minmax(0,1fr)}
+.flavor-finder.is-showcase{grid-template-columns:minmax(0,1fr);padding:0}
 .flavor-finder *{box-sizing:border-box}
 .flavor-finder__preview{position:relative;order:var(--flavor-finder-preview-order);aspect-ratio:1/1;width:100%;max-width:var(--flavor-finder-preview-max-width);margin:0 auto;
   border-radius:var(--flavor-finder-radius-inner);display:flex;align-items:center;justify-content:center;overflow:hidden}
-.flavor-finder.is-showcase .flavor-finder__preview{aspect-ratio:16/8;max-width:none;justify-content:flex-end}
+.flavor-finder.is-showcase .flavor-finder__preview{aspect-ratio:16/8;max-width:none;justify-content:flex-end;border-radius:var(--flavor-finder-radius)}
 .flavor-finder__preview img{width:88%;height:88%;object-fit:contain;display:block}
 .flavor-finder.is-showcase .flavor-finder__preview img{width:60%;height:92%;object-position:right center;margin-right:3%}
 .flavor-finder__preview-empty{font-family:var(--flavor-finder-font-display);font-size:120px;line-height:1;opacity:.18}
